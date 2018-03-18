@@ -11,6 +11,7 @@ class Home extends React.Component {
         <Link className='button' to='/battle' >
           Battle
         </Link>
+        <p style = {{textAlign: 'center'}}>Made By:  <a href='https://randomThoughts2018.github.io'> Vineet Kumar Singh</a></p>
       </div>
     )
   }

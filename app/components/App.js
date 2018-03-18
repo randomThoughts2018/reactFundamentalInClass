@@ -29,7 +29,6 @@ class App extends React.Component {
                   <Route path='/popular' component = {Popular} />
                   <Route render = { function() { return<p> Not Found</p> }} />
                 </Switch>
-                <p style = {{textAlign: 'center'}}>Made By:  <a href='https://randomThoughts2018.github.io'> Vineet Kumar Singh</a></p>
             </div>
           </Router>
 
